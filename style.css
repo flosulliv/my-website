@@ -24,7 +24,8 @@ body {
 }
 
 .btn-secondary {
-    background-color: whitesmoke;
+    background-color: green;
+    color: whitesmoke;
     border: none;
     padding: 0.5rem;
 }
