@@ -8,12 +8,19 @@ body {
     margin: 0;
 }
 
+:root {
+    --hauptfarbe: #4caf50;
+    --akzentfarbe: #2196f3;
+    --hintergrundfarbe: #ffffff;
+}
+
 .container-fluid {
     width: 100vw;
 }
 
 .header {
-    background-color: blueviolet;
+    background-color: var(--akzentfarbe);
+    background-color: aqua;
     color: whitesmoke;
     height: 10rem;
     padding: 2rem;
@@ -24,7 +31,7 @@ body {
 }
 
 .btn-secondary {
-    background-color: green;
+    background-color: var(--akzentfarbe) background-color: brown;
     color: whitesmoke;
     border: none;
     padding: 0.5rem;
