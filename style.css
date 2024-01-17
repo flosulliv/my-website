@@ -32,7 +32,7 @@ body {
 
 .btn-secondary {
     background-color: var(--akzentfarbe) background-color: brown;
-    color: whitesmoke;
+    color: green;
     border: none;
     padding: 0.5rem;
 }
@@ -42,4 +42,13 @@ body {
     color: whitesmoke;
     border: none;
     padding: 0.5rem;
+}
+
+.container-fluid {
+    background-color: cyan;
+    background-color: var(--akzentfarbe);
+    color: black;
+    height: 10rem;
+    padding: 2rem;
+    font-size: 1rem;
 }
