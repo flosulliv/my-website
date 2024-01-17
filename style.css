@@ -8,12 +8,19 @@ body {
     margin: 0;
 }
 
+:root {
+    --hauptfarbe: #4caf50;
+    --akzentfarbe: #2196f3;
+    --hintergrundfarbe: #ffffff;
+}
+
 .container-fluid {
     width: 100vw;
 }
 
 .header {
-    background-color: blueviolet;
+    background-color: var(--akzentfarbe);
+    background-color: aqua;
     color: whitesmoke;
     height: 10rem;
     padding: 2rem;
@@ -24,8 +31,8 @@ body {
 }
 
 .btn-secondary {
-    background-color: green;
-    color: whitesmoke;
+    background-color: var(--akzentfarbe) background-color: brown;
+    color: green;
     border: none;
     padding: 0.5rem;
 }
@@ -35,4 +42,13 @@ body {
     color: whitesmoke;
     border: none;
     padding: 0.5rem;
+}
+
+.container-fluid {
+    background-color: cyan;
+    background-color: var(--akzentfarbe);
+    color: black;
+    height: 10rem;
+    padding: 2rem;
+    font-size: 1rem;
 }
